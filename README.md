@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+# Simple CV Builder
+
+## Table of contents:
+- [x] [Preview](#app-preview)
+- [x] [Description](#description)
+- [x] [Credits](#credits)
+- [x] [Getting Started](#getting-started-with-create-react-app)
+
+## App preview
+![preview](https://github.com/annavasylashko/simple-cv-builder/blob/master/public/Preview.PNG)
+
+## Description 
+This is a 3-step web application for creating CV online.<br>On the first form you fill:
+- [x] first name;
+- [x] last name;
+- [x] current occupation;
+- [x] contacts(phone, email);
+
+On the second form you add your education(or multiple):
+- [x] univercity;
+- [x] faculty;
+- [x] splecialty;
+- [x] admission/graduation date;
+
+On the third form you add your working experience(or multiple):
+- [x] previous occupation;
+- [x] company name;
+- [x] start/end date;
+
+## Credits:
+Created by [Anna Vasylashko]()
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
