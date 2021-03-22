@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
+
+* {
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.resultContainer * {
+	font-family: "Montserrat";
+}
+
+.resultContainer {
+   display: flex;
+}
+
+
+.contacts {
+    width: fit-content;
+
+    color: rgba(19, 19, 21, 0.6);    
+}
+
+.resumeLeft, .resumeRight {
+    width: 50vw;
+    height: 94vh;
+    padding: 3vh 6vw;
+}
+
+.resumeLeft {
+    padding-top: 5vh;
+    height: 90vh;
+
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.resumeLeft::-webkit-scrollbar {
+	display: none;
+}
+
+.resumeLeft * {
+    text-align: left;
+}
+
+.resumeComponents {
+    display: flex;
+    flex-direction: column;
+}
+
+.resumeDate {
+    margin: 4vh auto -1vh auto;
+
+    color: rgba(19, 19, 21, 0.6);
+}
+
+.resumeTitle {
+    display: flex;
+    margin-top: 5vh;
+    color: #3f3f3f;
+}
+
+.resumeTitle h2 {
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.8rem;
+}
+
+.resumeLeft img {
+    height: 4vh;
+    margin: auto 1rem auto 0;
+}
+
+.resumeLeft .exIcon {
+    margin-top: -1vh;
+    height: 6vh;
+}
+
+.resumePlace {
+    font-family: "Bitter";
+    font-size: 1.5rem;
+    font-style: 600;
+    color: rgba(19, 19, 21, 0.7);
+    letter-spacing: 0.1rem;
+}
+
+.resumePlaceDetails {
+    margin-top: -2vh;
+
+    font-family: "Bitter";
+    font-size: 1.2rem;
+    font-style: 600;
+    color: rgba(19, 19, 21, 0.5);
+}
+
+/*/////*/
+
+.resumeRight {
+    padding: auto;
+    background: whitesmoke;
+    position: sticky;
+    top: 0;
+}
+
+.resumeRight * {
+    text-align: left;
+    font-size: 4rem;
+    color: rgba(19, 19, 21, 0.6);
+}
+
+.userFirstName {
+    margin-top: 20vh;
+    margin-bottom: -9vh;
+    font-weight: lighter;
+}
+
+.userLastName {
+    font-weight: bold;
+    color: rgba(19, 19, 21, 0.8);
+
+    margin-bottom: -2vh;
+}
+
+.userPosition {
+    padding: 1.5vh 2vw;
+
+    background: rgba(19, 19, 21, 0.8);
+    width: fit-content;
+
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: whitesmoke;
+    letter-spacing: 0.2rem;
+}
+
+
+

@@ -1,0 +1,123 @@
+.formContainer {
+	display: flex;
+}
+
+.inputContainer{
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+
+	margin: 2vh auto;
+
+	width: fit-content;
+
+	border: 1px solid whitesmoke;
+	border-radius: 4px;
+}
+
+.inputContainer .top {
+	padding: 0.5rem;
+
+	display: flex;
+	justify-content: space-between;
+	
+	color: rgba(19, 19, 21, 0.6);
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.inputContainer .btns {
+	display: flex;
+	justify-content: space-between;
+	width: 96%;
+}
+
+.inputContainer .backBtn {
+	width: 50%;
+}
+
+.inputContainer .submitBtn, .inputContainer .backBtn {
+	flex: 1;
+
+	outline: none;
+	border:none;
+	background: none;
+
+	margin: auto 0.4rem;
+	padding: 0.8rem;
+
+	border: 0.125rem solid rgba(19, 19, 21, 0.6);
+	border-radius: 5px;
+
+	font-size: 1rem;
+	line-height: 147%;
+	color: rgba(19, 19, 21, 0.6);
+}
+
+.inputContainer .submitBtn:hover {
+	cursor: pointer;
+
+	background: rgba(73, 133, 224, 0.12);
+	border-color: #1e4bd1;
+	color: #1e4bd1;
+}
+
+.inputContainer .backBtn:hover {
+	cursor: pointer;
+
+	background: #ffb1b138;
+	border-color: #b50706;
+	color: #b50706;
+}
+
+.addEducation {
+	outline: none;
+	border: 1px solid #1e4bd1;
+	background: rgba(73, 133, 224, 0.12);
+	border-radius: 50%;
+
+	margin-bottom: 1rem;
+
+	font-size: 2rem;
+	color: #1e4bd1;
+
+	width: 3rem;
+	height: 3rem;;
+}
+
+/* ///// */
+.listContainer {
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+
+	height: 80vh;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+
+	-ms-overflow-style: none;
+  	overflow-y: scroll;
+  	scrollbar-width: none;
+
+}
+
+.listContainer::-webkit-scrollbar {
+	display: none;
+}
+
+.list {
+	width: 15vw;
+	padding: 4vh;
+
+	border-radius: 10px;
+	background: rgba(73, 133, 224, 0.12);
+
+	color: rgba(19, 19, 21, 0.8);
+}
+
+.list * {
+	text-align: left;
+}
